@@ -1,8 +1,14 @@
 package ru.jevil.otuskotlinhomework
 
+import android.util.Log
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 import org.junit.Test
 
 import org.junit.Assert.*
+import ru.jevil.otuskotlinhomework.service.ApiFactory
+import java.lang.Exception
 
 /**
  * Example local unit test, which will execute on the development machine (host).
